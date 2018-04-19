@@ -1,0 +1,11 @@
+{
+  "alias": "api.heroes.nuxtjs.org",
+  "env": {
+    "GITHUB_CLIENT_ID": "55440d3936ba0961241e",
+    "GITHUB_CLIENT_SECRET": "@heroes-gh-client-secret",
+    "MONGO_DB": "nuxt-heroes",
+    "MONGO_URI": "@heroes-mongo-uri",
+    "MONO_JWT_SECRET": "@heroes-jwt-secret",
+    "NODE_ENV": "production"
+  }
+}
