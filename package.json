@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "mono dev",
-    "start": "cross-env NODE_ENV=production mono",
+    "start": "mono",
     "lint": "eslint src/ conf/ test/",
     "test": "npm run lint && nyc ava --verbose --serial --fail-fast test/ && nyc report --reporter=html",
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
@@ -19,7 +19,6 @@
   "dependencies": {
     "@terrajs/mono": "latest",
     "axios": "^0.18.0",
-    "cross-env": "^5.1.1",
     "mongodb-utils": "^1.1.6",
     "mono-doc": "latest",
     "mono-io": "latest",
