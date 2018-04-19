@@ -1,8 +1,10 @@
 ![marvel-vs-dc](https://user-images.githubusercontent.com/904724/38923201-5649f35e-42fa-11e8-890a-30eec5a8e4ba.png)
 
-# nuxt-heroes
+# nuxt-heroes-api
 
-> Marvel vs Avengers Heroes API (demo for JS Heroes).
+> Marvel vs Avengers Heroes API (demo for JS Heroes), built with [Mono](https://github.com/terrajs/mono).
+
+Front-end with Nuxt.js: https://github.com/Atinux/nuxt-heroes
 
 ## Setup
 
